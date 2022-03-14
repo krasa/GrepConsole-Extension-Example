@@ -1,0 +1,6 @@
+== Development notes
+
+- configure `Build and run using` for faster Hot Swap:
+
+image::gradleSetup.png[]
+
