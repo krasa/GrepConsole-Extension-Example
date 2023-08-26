@@ -19,7 +19,7 @@
 	<application-components>
 		<!-- Add your application components here -->
 		<component>
-			<implementation-class>GrepConsoleExtension</implementation-class>
+			<implementation-class>Shortener</implementation-class>
 		</component>
 	</application-components>
 
