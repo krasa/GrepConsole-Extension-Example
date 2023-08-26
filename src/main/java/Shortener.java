@@ -57,9 +57,7 @@ public class Shortener implements ApplicationComponent {
 
 	@Nullable
 	protected static String shorten(String text) {
-		CharSequence textForMatching = limitAndCutNewline(text, 50, 1000);
-
-		Matcher matcher = pattern.matcher(textForMatching);
+		Matcher matcher = pattern.matcher(text);
 		if (matcher.find()) {
 			String level = matcher.group(1);
 			String time = matcher.group(2);
