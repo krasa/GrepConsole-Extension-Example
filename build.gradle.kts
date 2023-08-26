@@ -1,6 +1,6 @@
 plugins {
     id("java")
-    id("org.jetbrains.intellij") version "1.4.0"
+    id("org.jetbrains.intellij") version "1.15.0"
 }
 
 group = "MyGrepConsoleExtension"
@@ -8,10 +8,10 @@ version = "1.0.0"
 
 // Configure Gradle IntelliJ Plugin - read more: https://github.com/JetBrains/gradle-intellij-plugin
 intellij {
-    version.set("2021.3")
+    version.set("2023.2")
     type.set("IC") // Target IDE Platform
 
-    plugins.set(listOf("java","GrepConsole:12.10.211.6693.3"))
+    plugins.set(listOf("java","GrepConsole:12.19.211.6693.0"))
 }
 
 tasks {
